@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="spectrum_v_prject.css">
+    <title>README</title>    
+</head>
+
+    <body class="bodyrm">
+        
+         <header>
+            <h1 id="h1"> Spectrum V Project </h1>
+
+            <h3 id="h3"> Overview </h3>
+
+            <p class="prm"> 
+                 In this project I recreated my own version of Artist: Ellsworth Kelly's 1969 spetrum V. using css and html.
+            </P>
+
+            <p>Below I've left a walkthrough of how so that you could create your own, if you so wish to, by the end of the walkthrough you'll have created something like this using html and css.</p>
+
+            <img class="photo" src="pictures\la_paleta.png" alt="responsive">
+
+            <h3 id="h3"> Walkthrough </h3>
+
+            <p class="prm"> 
+                To re-create this project, you'll need to understand how to build a table using Html, and how to link an Html file to your CSS form. You'll also want to have a basic understanding of color theory, and how the CSS box model works.
+            </P>
+
+        </header>
+        
+        <article>
+
+            <h3 id="h3">HTML</h3>
+
+            <p class="prm">
+                Assuming that we have already picked out our colors, our first step will be to set up our out Html header to link our CSS file and any external stylesheets that you might want to use.  
+            </p>
+
+            <p class="prm">
+                Besides linking my Html to page to my CSS file, I also linked it to Adobe fonts so that I could play around with some more creative font styles. **This is entirely optional**  I just thought, hey, why not, it is a creative project after all. You can find my code below. 
+            </p>
+
+            <img class="photo" src="pictures\header_spec_v.png" alt="responsive">
+
+            <p class="prm">
+                Now that we have the header completed, we can input our headings, and start working on our table. 
+            </p>
+
+            <p class="prm">
+                To create a table in Html, you'll need to open a table tag and add some table data, which we can to with 'td' tags. We'll also want to add a class to our table tags, and some id's to our 'td' tags because we'll need to use them when we start styling our Html with CSS. You can find my code below.
+            </p>
+
+            <img class="photo" src="pictures\table_spev_v.png" alt="responsive">
+
+            <h3 id="h3">CSS</h3>
+
+            <p class="prm">
+                Great! Now that we've completed our Html file, we can start working on styling it using CSS. To style our CSS, we'll want to learn how to select specific elements within our Html. Thankfully this isn't hard at all; in order to select an element, write it out and follow it by open and closed curly brackets. For example, if you are going to select a heading three then write h3{} within our curly brackets we can specify which elements will want to change.
+            </p>
+
+            <p class="prm">
+                The first step we'll want to take will be to center all our content. We can do so by directly calling on the body element, and within our curly brackets we can indicate to our program to align our text to the center, we will also want to set our margins to auto like so:
+            </p>
+
+            <img class="photo" src="pictures\centering.png" alt="responsive">
+
+            <p class="prm">
+                Below I've attached a picture of the box model so that you can get a better idea of the Html composition structure.
+            </p>
+
+            <img class="photo" src="https://media.geeksforgeeks.org/wp-content/uploads/box-model-1.png" alt="responsive">
+
+            <p class="prm">
+                Now that we have centered our page, we can start working on our table's color palette. We can change each 'td' cell individually by calling the assigned id, which we have assigned to it. To specify that we're going to work, an 'id' element, we must precede the name of our id with the '#' symbol. Once we have selected our id, we can change its background color by either calling a hex code, an RGB code or simply writing the color we would like to change our background too. We can also take this opportunity to change the padding dimensions of our cell. Below is an example of how I went about adjusting the first 'td' cell in my table. 
+            </p>
+
+            <img class="photo" src="pictures\table_colors.png" alt="responsive">
+
+            <p class="prm">
+                Lastly, our final step will be to adjust our table's borders so that we could create some spacing between our color palates. Similarly to how we used # to specify that we would be working on our table data id's, we can specify that we will be working on a class by preceding our class's name with a period. While we were on the topic, let's center our table by calling our table's assigned table class and setting the margin to auto. 
+            <br>
+            <br>
+                Now let's adjust the borders of our table by calling on the 'td' element and specifying width with pixels and setting the color to solid white so that it could blend in with our desktop background. Example:
+            </p>
+
+            <img class="photo" src="pictures\td_tbclass.png" alt="responsive">
+
+
+        </article>
+
+
+        
+    </body>
+
+
+</html>
